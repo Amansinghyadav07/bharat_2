@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:burlywood;
+    background-image: url('convertor.webp'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+    color: pink;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+button {
+    background-color: rgb(215, 30, 30);
+    color: #98d127;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color:red;
+}
+
+
